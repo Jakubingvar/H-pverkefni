@@ -14,13 +14,14 @@
 
 body {
   line-height: 1.5em;
+  background-color: orange;
+  color: black;
 }
+
 .topnav {
   background-color: ; 
 }
-header {
-  background-color: tomato; 
-}
+
 footer {
   background-color: ; 
 }
@@ -42,10 +43,14 @@ footer,
 
 /* ====== leturstílar ====== */
 
-header h1 {
-  color: #fff;
-  line-height: 1.2;
-  font-weight: normal;
+header{
+  background-color: tomato;
+  font-family: verdana;
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  padding-top: 0.1em;
+  margin-top: 0;
 }
 .midja h2 {
   margin: .7em 0 .8em 0;
