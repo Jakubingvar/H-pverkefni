@@ -11,9 +11,65 @@
 	<header>
 		<h1><img src="hasura.svg" height="150"> Lambda HF</h1>
 	</header>
-	
+	<h1 class="space">ÚTGÁFUTÓNLEIKAR</h1>
+	<h2>Upplýsingar um útgáfutónleikana</h2>
+	<h4>Tónlistarstefna: Rokk</h4>
+	<h4>Dagsetning: 20.07.2018</h4>
+	<h4>Hljómsveitir sem koma fram:</h4>
+
+	<div class="grid-container">
+		<div></div>
+  		<div class="grid-item1">
+  			Beatles<br>
+	 		Fleetwood Mac<br>
+			Black Sabbath<br>
+			The Eagles<br>
+			Genesis<br></div>
+  		<div class="grid-item2">
+  			Rush<br>
+	 		Nirvana<br>
+	 		AC/DC<br>
+	 		Iron Maiden<br>
+	 		Metallica<br>
+  		</div>
+  		<div></div>
+	</div>
+	<div class="skraning">
+	<h2>Skráning á útgáfutónleika</h2>
+	<fieldset>
+			<form style="border: none" action="" method="get">
+				<label for="name">Nafn:</label>
+			    <input id="name" type="text" name="nafn" placeholder="Full name" autofocus="" required="">
+			    <br>
+
+			    <label for="telNo">Símanúmer:</label>
+				<input id="telNo" type="text" name="telNo"
+				size="7" minlength="7" maxlength="7" placeholder="123 4567" pattern="\d{3}(?:[\-\s]?)\d{4}" title="Vinsamlegast skráið 7 tölustafi" required="">
+				<br>
+
+				<label for="email-address">Tölvupóstur:</label>
+				<input type="email" name="tölvupóstur" placeholder="Email adress" required="">
+				<br>
+
+				
+				<label for="amount">Fjöldi:</label>
+				<input type="number" name="amount" placeholder="Amount" required=""> stykki
+				<br>
+
+				<label for="argerd">Aldur:</label>
+			    <input type="checkbox" name="aldur" value="almennt"> Almennt(5000kr),
+			    <input type="checkbox" name="aldur" value="65"> 65+(4500kr).
+			    <br>
+
+			  <input type="submit" value="Panta">
+			</form>
+			</fieldset>
+	</div>
+	<div class="brunt">
+		<h2>Upplýsingar um lög</h2>
+	</div>
 	<footer>
-		<h2>footer bara</h2>
+		<h2>Footer</h2>
 	</footer>
 </body>
 </html>

@@ -2,13 +2,30 @@
     box-sizing: border-box; 
 }
 
-/*heimild: https://gridbyexample.com/examples/example13/ */
-
 /* ====== GRID Area ====== */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-item1 {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  background-color: pink;
+  border-left: solid 5px tomato;
+  border-top: solid 5px tomato;
+  border-bottom: solid 5px tomato;
+}
 
-
-/* ====== GRID Template Areas ===== */
-
+.grid-item2 {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  background-color: pink;
+  border-right: solid 5px tomato;
+  border-top: solid 5px tomato;
+  border-bottom: solid 5px tomato;
+}
 
 /* ====== Base litir + padding ====== */
 
@@ -16,6 +33,7 @@ body {
   line-height: 1.5em;
   background-color: orange;
   color: black;
+  font-family: verdana;
 }
 
 .topnav {
@@ -62,7 +80,28 @@ header{
 .midja p {
   text-align: justify;
 }
-
+h1,h2,h3,h4 {
+  text-align: center;
+}
+.space {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.skraning {
+  color: white;
+  background-color: tomato;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 3em;
+  padding-top: 2em;
+  border: solid 5px brown;
+}
+.brunt {
+  background-color: brown;
+  color: white;
+  margin: 2em 5em 2em 5em;
+  border: solid 5px black;
+}
 /* ========================================
   Efnisyfirlit
   ======================================== */
