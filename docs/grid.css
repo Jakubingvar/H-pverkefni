@@ -15,6 +15,7 @@
   border-left: solid 5px tomato;
   border-top: solid 5px tomato;
   border-bottom: solid 5px tomato;
+  border-radius: 50% 0 0 50%;
 }
 
 .grid-item2 {
@@ -25,6 +26,7 @@
   border-right: solid 5px tomato;
   border-top: solid 5px tomato;
   border-bottom: solid 5px tomato;
+  border-radius: 0 50% 50% 0;
 }
 
 /* ====== Base litir + padding ====== */
@@ -101,6 +103,16 @@ h1,h2,h3,h4 {
   color: white;
   margin: 2em 5em 2em 5em;
   border: solid 5px black;
+}
+.hvitt {
+  background-color: yellow;
+  margin: 2em 5em 2em 5em;
+  border: solid 4px black;
+}
+.bil {
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 1em;
 }
 /* ========================================
   Efnisyfirlit
